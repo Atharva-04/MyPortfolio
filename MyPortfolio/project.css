@@ -1,0 +1,130 @@
+*{
+    padding:0px;
+}
+body{
+    margin:0px;
+    background-color:rgb(0,0,33);
+    color:white;
+}
+.nav-bar{
+    display:flex;
+    justify-content:space-around;
+    align-content:center;
+    height:80px;
+    background-color:rgb(18,18,62);
+    font-size:22px;
+}
+.nav-bar ul{
+    display:flex;
+    justify-content:center;
+}
+.nav-bar ul li{
+    list-style:none;
+    margin:0 23px;
+}
+.nav-bar ul li a{
+    color:white;
+    text-decoration:none;
+}
+.nav-bar ul li a:hover{
+  color:pink;
+}
+.firstSection{
+    display:flex;
+    justify-content:space-around;
+    margin:23px 0;
+}
+.firstSection div{
+    width:30%;
+}
+.leftSection{
+    font-size:3rem;
+    margin:50px 0;
+}
+.rightSection img{
+    width:99%;
+    margin:50px 0;
+    
+}
+.color{
+    color:rgb(170,107,228);
+}
+.main-content .left-content img{
+      height: 242px;
+      width: 241px;
+}
+.main-content{
+  display:flex;
+  justify-content:space-around;
+  margin:23px 0;
+}
+.right-content{
+  font-size:3rem;
+  margin:50px 0;
+}
+.projects{
+  font-size:18px;
+}
+.projects a{
+  color:white;
+  text-decoration:none;
+}
+.projects li{
+  list-style:none;
+}
+.secondary-content{
+  display:flex;
+  justify-content:space-around;
+  margin:23px 0;
+}
+.RL img{
+    width: 243px;
+    height: 238px;
+}
+.LL h2{
+     font-size:42px;
+}
+.education{
+  display:flex;
+  justify-content:space-around;
+  margin:23px 0;
+}
+.ed{
+   font-size:42px;
+   text-align:center;
+}
+.le li{
+  list-style:none;
+  text-decoration:none;
+  font-size:22px;
+}
+.line{
+  color:rgb(0,0,33);
+}
+.gray{
+  color:grey;
+  font-size:11px;
+}
+.footer{
+  background-color:rgb(18,18,62);
+  height:130px;
+  width:100%;
+  margin:0px;
+  display:flex;
+  justify-content:space-around;
+  margin:23px 0;
+}
+.footer h5{
+  margin:48px;
+}
+.end{
+  margin:45px;
+}
+.end a{
+  text-decoration:none;
+  color:white;
+  font-size:24px;
+}
+.end a:hover{
+  color:rgb(170,107,228);
+}

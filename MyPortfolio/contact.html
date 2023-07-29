@@ -1,0 +1,137 @@
+<html>
+<head>
+<script src="https://kit.fontawesome.com/3b3c47b9a5.js" crossorigin="anonymous"></script>
+<script>
+function myFunction() {
+    alert("You will be contacted soon");
+  }
+</script>
+
+<style>
+body{
+    margin:0px;
+    background-color:rgb(0,0,33);
+    color:white;
+    padding:0px;
+}
+.nav-bar{
+    margin-right: -62px;
+    display:flex;
+    justify-content:space-around;
+    align-content:center;
+    height:80px;
+    background-color:rgb(18,18,62);
+    font-size:22px;
+}
+.nav-bar ul{
+    display:flex;
+    justify-content:center;
+}
+.nav-bar ul li{
+    list-style:none;
+    margin:0 23px;
+}
+.nav-bar ul li a{
+    color:white;
+    text-decoration:none;
+}
+.nav-bar ul li a:hover{
+  color:pink;
+}
+.form{
+    flex-direction: column;
+    display: flex;
+}
+button{
+    width: 151px;
+    font-size: 20px;
+    border-radius: 0.5em;
+    margin-left: 30rem;
+    background-color: lawngreen;
+    height:42px;
+}
+button:hover{
+  background-color:greenyellow;
+}
+input[type=email]{
+     border-radius: 20px;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    width: 350px;
+    height: 43px;
+    margin-left: 380px;
+}
+input[type=text]
+{
+    border-radius: 20px;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    width: 350px;
+    height: 43px;
+    margin-left: 380px;
+}
+.heading{
+  margin-left:55px;
+  text-align:center;
+}
+h2{
+  text-align:center;
+  margin-right:6em;
+}
+.footer{
+  background-color:rgb(18,18,62);
+  height:130px;
+  width:100%;
+  margin:0px;
+  display:flex;
+  justify-content:space-around;
+  margin-top:20px;
+  padding:32px;
+}
+.footer h5{
+  margin:48px;
+}
+.end{
+  margin:45px;
+}
+.end a{
+  text-decoration:none;
+  color:white;
+  font-size:24px;
+}
+</style>
+</head>
+<body>
+<div class="nav-bar">           
+<div class="left">
+<ul><li><i class="fa-regular fa-user"></i> &nbsp Atharva's Portfolio</li></ul>              
+</div>
+<div class="right">
+<ul>
+<li> <a href="project.html"><i class="fa-solid fa-house fa-bounce"></i></a></li>
+<li> <a href="about.html"><i class="fa-solid fa-circle-info fa-bounce"></i></a></li>
+<li> <a href="contact.html"><i class="fa-solid fa-phone fa-bounce"></i></a></li>
+</ul>
+</div>
+</div>
+<!-- form-->
+<div class="form">
+<span class="heading"><h1>Contact Me </h1></span>
+<h2>Name:-</h2>
+<input type="text" value="" autofocus .required>
+<h2>Email:-</h2>
+<input type="email" autofocus .required>
+<br>
+<br>
+<a href="submission.html" target="blank"><button type="button" onclick=myFunction() id="submitForm">Contact Me</button></a>
+</div>
+<div class="footer">
+<h5>Atharva &nbsp <i class="fa-regular fa-copyright"></i> &nbsp All rights Reserved</h5>
+<div class="end"><a href="https://github.com/Atharva-04">Let's collabrate</a></div>
+</div>
+</body>
+</html>
